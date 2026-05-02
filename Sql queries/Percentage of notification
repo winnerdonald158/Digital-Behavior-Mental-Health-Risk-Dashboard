@@ -1,0 +1,13 @@
+                                                 BUSINESS QUESTION
+           What % of users have: 
+o	sleep < 6 hours 
+o	anxiety > 7 
+
+                       QUERY
+SELECT
+ROUND(100.0 * SUM(CASE WHEN sleep_hours < 6 THEN 1 ELSE 0 END) / COUNT(*),2) AS percentage_low_sleep,
+ROUND(100.0 * SUM(CASE WHEN anxiety_level > 7 THEN 1 ELSE 0 END) / COUNT(*),2) AS percentage_high_anxiety
+FROM mental_health;
+
+INSIGHT
+From this query a meaningful portion of users are sleep-deprived and highly anxious.
