@@ -1,0 +1,16 @@
+                                                BUSINESS QUESTIONS 
+	Which factor has the strongest relationship with digital wellbeing score? 
+
+                                     QUERY
+SELECT
+  CORR(daily_screen_time, digital_wellbeing_score) AS screen_corr,
+  CORR(sleep_hours, digital_wellbeing_score) AS sleep_corr,
+  CORR(anxiety_level, digital_wellbeing_score) AS anxiety_corr
+FROM mental_health ;
+  
+                                       INSIGHT
+These shows that the 2 major factors that affect well being are sleep and anxiety, while screen time alone has limited impact.
+            
+         RECOMMENDATION
+This suggests that mental health outcomes are influenced more by emotional and behavioral factors than usage duration.
+
