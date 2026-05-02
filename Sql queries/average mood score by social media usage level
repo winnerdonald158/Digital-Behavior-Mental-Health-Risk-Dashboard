@@ -1,0 +1,15 @@
+                                                  BUSINESS QUESTION
+	What is the average mood score by social media usage level? 
+ 
+        QUERY
+SELECT
+  social_media_time,
+  AVG(mood_score)avg_mood
+FROM mental_health
+GROUP BY social_media_time;     
+
+                           Insight:
+Mood varies across usage levels ,heavy use doesn’t always mean worse mood.
+ 
+Recommendation:
+We should Promote healthy usage patterns, not total avoidance
