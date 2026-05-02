@@ -1,0 +1,11 @@
+                                                     BUSINESS QUESTION
+	What is the average app switching behavior for high anxiety users?
+  
+                  QUERY
+SELECT
+ROUND(AVG(num_app_switch),2) AS avg_app_switch,
+FROM mental_health
+WHERE anxiety_level > 7; 
+
+INSIGHT
+high anxiety can make someone to be restless, making them open more apps
