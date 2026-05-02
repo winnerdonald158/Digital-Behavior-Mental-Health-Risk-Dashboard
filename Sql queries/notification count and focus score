@@ -1,0 +1,18 @@
+                                        BUSINESS QUESTION
+
+How does notification count affect focus score? 
+
+       QUERY
+SELECT
+  notification_count,
+  ROUND(AVG(focus_score),2) AS avg_focus
+FROM mental_health
+GROUP BY notification_count
+ORDER BY notification_count;
+
+INSIGHT;
+this query  shows that its not about the number of notification or how many,but whats actually the notification about,
+because even a low focus score on digital apps may still have a high notification at the end.
+
+Recommendation;
+Digital notification should be controlled  like muting, grouping, should be encouraged.
