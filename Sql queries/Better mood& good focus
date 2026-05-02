@@ -1,0 +1,16 @@
+                                           BUSINESS QUESTION
+Are users with better focus scores also having better mood scores? 
+
+                 QUERY
+SELECT
+  focus_score,
+  mood_score
+FROM mental_health
+ORDER BY focus_score,
+mood_score DESC;
+
+Insight:
+For someone to have a good focus, he or she must be in a good mood 
+
+Recommendation:
+Improving focus (less distraction) can improve emotional wellbeing.
