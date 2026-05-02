@@ -1,0 +1,18 @@
+                                        BUSINESS QUESTION
+Group users into: 
+o	Healthy 
+o	Moderate 
+o	High Risk
+(based on sleep, anxiety, screen time) 
+
+                         QUERY
+SELECT
+  daily_screen_time,
+  sleep_hours,
+  anxiety_level,
+CASE 
+  WHEN daily_screen_time > 500 AND sleep_hours <= 5 AND anxiety_level > 8 THEN 'High Risk'
+  WHEN daily_screen_time < 400 AND sleep_hours > 5 AND anxiety_level <= 8 THEN 'Moderate Risk'
+  ELSE 'Low Risk'
+END AS user_segment
+FROM mental_health;
