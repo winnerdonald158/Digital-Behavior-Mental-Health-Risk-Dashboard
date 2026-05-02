@@ -1,0 +1,17 @@
+                                             BUSINESS QUESTION
+Does higher screen time correlate with lower sleep hours?
+
+                      QUERY
+SELECT
+  daily_screen_time,
+  sleep_hours
+FROM mental_health;
+
+
+INSIGHT: 
+this tells that the higher screentime can lead to less sleep but not always
+
+
+Recommendation;
+There is a need to encourage screen limits before bedtime, not total restriction.
+
