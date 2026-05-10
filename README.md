@@ -1,5 +1,5 @@
                                   Digital Behavior & Mental Health Risk Dashboard
-               Project Overview
+                                            Project Overview
 
 This project focuses on analyzing how digital behavior affects mental health. 
 With an increasing screen time and online activity, it is important to understand how these habits influence anxiety, sleep, focus, and overall wellbeing.
@@ -13,23 +13,23 @@ To identify high-risk behavior patterns,
 To highlight key factors affecting wellbeing,
 To support better lifestyle and mental health decisions
 
- Tools I Used:
+                                                 Tools I Used:
 PostgreSQL,
 Power BI
 
-Skills Demonstrated:
+                                               Skills Demonstrated:
 Data analysis with SQL (aggregation, filtering, CASE statements),
 User segmentation,
 Dashboard design and storytelling,
 Health data interpretation
 
- Repository Structure:
+                                                  Repository Structure:
 Digital Menatal health data  → screenshot
 sql-queries/ → SQL questions and analysis
 dashboard/ → Power BI dashboard screenshots
 README.md → Project documentation
 
- Key Insights:
+                                                   Key Insights:
 Screen Time vs Mental Health:
 Higher screen time does not always mean higher anxiety, but higher usage combined with other factors can increase risk.
 
@@ -49,7 +49,7 @@ Frequent notifications on digital apps can interrupt focus, but the impact depen
 Digital Wellbeing Drivers:
 Sleep and anxiety levels show stronger influence on wellbeing compared to screen time alone.
 
-Dashboard Overview
+                                              Dashboard Overview
 The dashboard shows:
 Average screen time by anxiety level,
 Screen time vs sleep relationship,
@@ -63,10 +63,10 @@ How digital habits affect mental health,
 Which users are at risk,
 What behaviors need improvement.
 
-Health Objective:
+                                                Health Objective:
 To understand how digital behavior impacts mental health and identify patterns that may lead to increased anxiety, poor sleep, and reduced wellbeing.
 
-Recommendations:
+                                              Recommendations:
 There is a need to encourage healthier screen time habits,
 Also promote better sleep routines willreduce low sleep habits,
 Reducing unnecessary notifications to improve focus,
@@ -79,4 +79,5 @@ Mental health is not driven by one factor alone, from this research it is a comb
 Connect With Me:
 Winner Donald
 winnerdonald158@gmail.com
+linkedln: www.linkedin.com/in/winner-donald
 Abuja, Nigeria
